@@ -1,0 +1,28 @@
+.footer {
+    background-color: #110e1b;
+
+    .footerContent {
+        border-top: solid #0e091b 1px;
+        padding: 32px 22px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        color: white;
+    }
+}
+
+.grid {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0 2rem;
+}
+
+.powed {
+    display: flex;
+    align-items: center;
+
+    img {
+        width: 25px;
+        margin-left: 10px;
+    }
+}
