@@ -9,10 +9,10 @@ export function Main() {
             <section className={styles.main}>
                 <div className={styles.grid_layout}>
                     <div className={styles.here} data-aos="zoom-in">
-                        <h1 className={styles.text_ani}>
+                        <div className={styles.text_ani}>
                             <span>Olá, eu sou,</span> <br />
-                            Nelis Santiago
-                        </h1>
+                            <h2>Nelis Santiago</h2>
+                        </div>
                         <div className={styles.writer}>
                             <h3 className={styles.typewriter}>Front-End Developer.</h3>
                         </div>

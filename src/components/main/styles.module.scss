@@ -20,6 +20,10 @@
     .here {
         max-width: 600px;
 
+        @media (max-width: 420px) {
+            margin-left: -1rem;
+        }
+
     h1 {
         color: white;
         font-size: 55px;
@@ -42,9 +46,14 @@
         }
     }
 
-    .writer {
-        width: 74.5%;
+    .writer { 
+          width: 16.5rem;
+
+        @media (max-width: 500px) {
+            width: 91%;
+        }
     }
+
     .typewriter {
         color: #fff;
         font-family: monospace;
@@ -74,17 +83,20 @@
           align-items: center;
 
           .git {
+              color: #3d08b9;
               font-size: 42px;
               display: inline-block;
               animation: float 5s ease-in-out infinite;
               margin-right: 10px;
               animation-delay: 1s;
+              
               :hover {
                 filter: brightness(0.8);
             }
           }
 
           .inst {
+             color: #3d08b9;
               font-size: 42px;
               margin-right: 10px;
               display: inline-block;
@@ -97,6 +109,7 @@
           }
 
           .discord {
+            color: #3d08b9;
               font-size: 45px;
               margin-right: 10px;
               display: inline-block;
@@ -131,7 +144,7 @@
   .image {
       margin-left: 20rem;
       display: inline-block;
-      animation: float 5s ease-in-out infinite;
+      animation: float 4s ease-in-out infinite;
 
       @media (max-width:1120px) {
           margin-left: 10rem;
@@ -146,25 +159,42 @@
 @media screen and (max-width: 720px) {
     .here {
         text-align: center;
-
-        .writer {
-            margin-left: 3rem;
-        }
     }
 }
 
 .text_ani{
     background-image: url("../../../public/assets/image/stars.png");
-    background-size: 400px auto;
+    background-size: 300px auto;
     -webkit-text-fill-color: transparent;
     text-fill-color: transparent;
     -webkit-background-clip: text;
     background-clip: text;
-  animation: snow 3s infinite linear;}
+  animation: snow 3s infinite linear;
+
+  span {
+
+      font-size: 32px;
+  }
+  h2 {
+      font-size: 50px;
+  }
+
+  @media (max-width: 500px) {
+    span {
+        font-size: 35px;
+    }
+  
+    h2 {
+        font-size: 45px;
+    }
+  }
+
+}
 
 @keyframes snow {
-  0% { background-position: 0 -400px; }
+  0% { background-position: 0 -300px; }
   100% { background-position: 0 0; }
+
 }
 
 .section {
@@ -202,7 +232,7 @@
         }
 
         @media (max-width:920px) {
-            text-align: center;
+            padding: 0;
         }
     }
 }
@@ -403,4 +433,7 @@
             margin: 0;
             font-size: 16px;
         }
+    }
+
+    @media screen and (max-width: 420px) {
     }

@@ -11,6 +11,20 @@
 
         display: flex;
         align-items: center;
+        justify-content: center;
+
+      
+        @media (max-width: 420px) {
+            
+            .nav {
+            
+                ul {
+                    margin-left: -60px;
+                }
+                
+            }
+         }
+         
     }
 
     .nav {
