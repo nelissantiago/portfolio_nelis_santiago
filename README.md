@@ -4,7 +4,9 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 **## Website successfully updated! updates were made to the code, optimization, responsive, and we also added the knowledge page**
 
-**Version: 1.1.0
+**## Version: 1.1.0**
+
+**https://prnt.sc/AAauVo_5yCff Click In Link**
 
 First, run the development server:
 
