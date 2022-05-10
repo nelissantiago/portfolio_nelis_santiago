@@ -8,7 +8,7 @@ export function Footer() {
                     <div className={styles.footerContent}>
                         <span>© 2022 Nelis Santiago</span>
                         <div className={styles.powed}>
-                            <p>
+                            <p className={styles.p}>
                                 Powered by
                             </p>
                             <img 
